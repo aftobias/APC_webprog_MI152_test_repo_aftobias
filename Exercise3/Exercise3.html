@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Basketball.";
+	}
+	function myFunction2() {
+    document.getElementById("demo").innerHTML = "Baked Macaroni.";
+	}
+	function myFunction3() {
+    document.getElementById("demo").innerHTML = "Facebook";
+	}
+	function myFunction4() {
+    document.getElementById("demo").innerHTML = "Dota2.";
+	}
+	function myFunction5() {
+    document.getElementById("demo").innerHTML = "Growly.";
+	}
+</script>
+<style>
+a {
+	color: red;
+	}
+body {
+    background-color: lightblue;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1 {
+    color: green;
+}
+</style>
+</head>
+<body background="background1.jpg">
+
+<h1>This is my Home Page</h1>
+
+<table>
+  <tr>
+    <th>Full name</th>
+    <th>Nickname</th>
+    <th>Interest</th>
+	<th>Favorite Website</th>
+  </tr>
+  <tr>
+    <td>Alfredo Tobias Jr</td>
+    <td>Tobi</td>
+    <td><img src="basketball.jpg" alt="basketball" style="width:150px;height:100px;"></td>
+	<td><p><a href="http://www.facebook.com">Facebook</a></p></td>
+  </tr>
+</table>
+
+<h1>Answer</h1>
+<p id="demo"></p>
+
+    <h4>What is my Hobby?</h4>
+	<button type="button" onclick="myFunction()">Try it</button>
+    <h4>What is my favorite food?</h4>
+	<button type="button" onclick="myFunction2()">Try it</button>
+    <h4>What is my favorite app?</h4>
+	<button type="button" onclick="myFunction3()">Try it</button>
+	<h4>What is my favorite PC Game?</h4>
+	<button type="button" onclick="myFunction4()">Try it</button>
+	<h4>Who is my bestfriend?</h4>
+	<button type="button" onclick="myFunction5()">Try it</button>
+
+</body>
+</html>
+
